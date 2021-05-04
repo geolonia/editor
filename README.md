@@ -1,3 +1,3 @@
 # Editor
 
-https://tilecloud.github.io/editor/
+https://editor.geolonia.com/
