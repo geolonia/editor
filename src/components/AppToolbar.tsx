@@ -194,12 +194,12 @@ export default class AppToolbar extends React.Component<AppToolbarProps> {
             className="maputnik-toolbar-logo"
             target="blank"
             rel="noreferrer noopener"
-            href="https://github.com/maplibre/maputnik"
+            href="https://github.com/geolonia/editor"
           >
             <img src={maputnikLogo} alt="Maputnik on GitHub" />
             <h1>
               <span className="maputnik-toolbar-name">{pkgJson.name}</span>
-              <span className="maputnik-toolbar-version">v{pkgJson.version}</span>
+              <span className="maputnik-toolbar-version">Geolonia v{pkgJson.version}</span>
             </h1>
           </a>
         </div>

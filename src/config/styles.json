@@ -1,5 +1,23 @@
 [
   {
+    "id": "00-geolonia-basic-v1",
+    "title": "Geolonia Basic",
+    "url": "https://geoloniamaps.github.io/basic-v1/style.json",
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAQAAAAHDYbIAAAAEUlEQVR42mP8/58BDhiJ4wAA974H/U5Xe1oAAAAASUVORK5CYII="
+  },
+  {
+    "id": "01-geolonia-gsi",
+    "title": "Geolonia GSI",
+    "url": "https://geoloniamaps.github.io/gsi/style.json",
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAQAAAAHDYbIAAAAEUlEQVR42mP8/58BDhiJ4wAA974H/U5Xe1oAAAAASUVORK5CYII="
+  },
+  {
+    "id": "02-geolonia-smartcity-base",
+    "title": "Geolonia SmartCity Base",
+    "url": "https://smartcity-base.styles.geoloniamaps.com/style.json",
+    "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAQAAAAHDYbIAAAAEUlEQVR42mP8/58BDhiJ4wAA974H/U5Xe1oAAAAASUVORK5CYII="
+  },
+  {
     "id": "0-empty-style",
     "title": "Empty Style",
     "url": "https://cdn.jsdelivr.net/gh/maputnik/editor@9cf74ca405d2be0608b57db8109cf3a6af5b9f49/src/config/empty-style.json",
