@@ -1,3 +1,7 @@
+# editor.geolonia.com
+
+Maputnik that is customized for Geolonia maps.
+
 <img width="200" alt="Maputnik logo" src="https://cdn.jsdelivr.net/gh/maputnik/design/logos/logo-color.png" />
 
 # Maputnik
