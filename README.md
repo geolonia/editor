@@ -40,6 +40,8 @@ Maputnik is written in typescript and is using [React](https://github.com/facebo
 
 We ensure building and developing Maputnik works with the [current active LTS Node.js version and above](https://github.com/nodejs/Release#release-schedule).
 
+Check out our [Internationalization guide](./src/locales/README.md) for UI text related changes. 
+
 ### Getting Involved
 Join the #maplibre or #maputnik slack channel at OSMUS: get an invite at https://slack.openstreetmap.us/ Read the the below guide in order to get familiar with how we do things around here.
 
@@ -97,6 +99,16 @@ You can also see the tests as they run or select which suites to run by executin
 ```
 npm run cy:open
 ```
+
+## Release process
+
+1. Review [`CHANGELOG.md`](/CHANGELOG.md)
+   - Double-check that all changes included in the release are appropriately documented.
+   - To-be-released changes should be under the "main" header.
+   - Commit any final changes to the changelog.
+2. Run [Create bump version PR](https://github.com/maplibre/maputnik/actions/workflows/create-bump-version-pr.yml) by manual workflow dispatch and set the version number in the input. This will create a PR that changes the changelog and `package.json` file to review and merge.
+3. Once merged, an automatic process will kick in and creates a GitHub release and uploads release assets.
+
 
 ## Sponsors
 
